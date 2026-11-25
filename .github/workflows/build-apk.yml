@@ -20,4 +20,5 @@ jobs:
           java-version: '17'
 
       - name: Build Debug APK
-        run: ./gradlew assembleDebug
+        run: gradle -p extracted/NeonFloorAndroid assembleDebug
+
